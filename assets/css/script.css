@@ -1,0 +1,391 @@
+* body {
+  background-color: #f8faff;
+  margin: 0px auto;
+}
+* body header #cohort_section {
+  background-color: #272634;
+}
+* body header #cohort_section #cohort_container {
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 3px 40px 3px 600px;
+}
+* body header #cohort_section #cohort_container #cohort_notes {
+  background-color: #272634;
+  color: #ffffff;
+  font: normal 400 16px/16px 'Proxima Nova';
+  letter-spacing: 0.6px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list {
+  align-items: center;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list .cohort_item {
+  list-style: none;
+  padding: 0px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list .cohort_item #cohort_button {
+  background-color: transparent;
+  border: 1px solid #05aae1;
+  color: #ffffff;
+  font: normal 400 16px/16px 'Proxima Nova';
+  height: 36px;
+  letter-spacing: 0.6px;
+  margin-left: 60px;
+  padding: 10px 22px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_text {
+  margin-right: 0px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact {
+  align-items: center;
+  display: flex;
+  margin-left: 231px;
+  margin-right: 0px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact #cohort_phone_icon {
+  margin-right: 13px;
+  vertical-align: center;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact #cohort_contact_number {
+  color: #05aae1;
+  font: normal 400 16px/16px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin: 0px;
+  vertical-align: center;
+}
+* body header #navbar_section {
+  background-color: #1d1f21;
+}
+* body header #navbar_section #navbar_container {
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 13px 40px 13px 30px;
+}
+* body header #navbar_section #navbar_container .navbar {
+  font: normal 700 16px/19px 'Proxima Nova';
+  letter-spacing: 0.4px;
+  margin: 0px;
+  padding: 0px;
+}
+* body header #navbar_section #navbar_container .navbar .navbar_list .nav-link {
+  padding: 0px;
+}
+* body header #navbar_section #navbar_container .navbar #coding_dojo {
+  margin-right: 179px;
+}
+* body header #navbar_section #navbar_container .navbar #menu {
+  display: none;
+}
+* body header #navbar_section #navbar_container .navbar .collapse .nav-item {
+  align-items: center;
+  display: flex;
+  margin: 0px 46px 0px 0px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse .nav-item .nav-link {
+  color: #ffffff;
+  padding: 0px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse .nav-item .dropdown_icon {
+  margin-left: 10px;
+  width: 10px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse li:last-child {
+  margin-right: 70px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse #dojo_diff {
+  margin-right: 25px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse #online_campus {
+  margin-right: 29px;
+}
+* body header #navbar_section #navbar_container .navbar .btn {
+  background-color: #05aae1;
+  color: #ffffff;
+  font: normal 700 16px/19px 'Proxima Nova';
+  height: 36px;
+  padding: 0px;
+  text-align: center;
+  width: 120px;
+}
+* body main #admissions_section {
+  background-color: #05a9e1;
+  position: relative;
+}
+* body main #admissions_section #admissions_container {
+  background: #05a9e1 url("../img/word_bubble.png") no-repeat 232px 48px;
+  color: #ffffff;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 164px 600px 52px 364px;
+  position: relative;
+}
+* body main #admissions_section #admissions_container h1 {
+  font: normal 700 45px/47px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+}
+* body main #admissions_section #admissions_container p {
+  font: normal 400 18px/22px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 26px;
+}
+* body main #admissions_section #admissions_container button {
+  background-color: transparent;
+  border-radius: 2px;
+  border: 2px solid #FFFFFF;
+  color: #ffffff;
+  font: normal 700 16px/19px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  padding: 23px 35px;
+}
+* body main #admissions_section #admissions_container #couple {
+  left: 900px;
+  position: absolute;
+  top: 232px;
+}
+* body main #admissions_section #admissions_container #timeline {
+  position: absolute;
+  left: 608px;
+  top: 370px;
+}
+* body main #admissions_section #research_container {
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 74px 146px 22px 838px;
+  position: relative;
+  color: #ffffff;
+}
+* body main #admissions_section #research_container #research {
+  position: absolute;
+  left: 106px;
+  top: 0px;
+}
+* body main #admissions_section #research_container h2 {
+  font: normal 700 40px/46px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 36px;
+}
+* body main #admissions_section #research_container #research_list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+* body main #admissions_section #research_container #research_list .research_item::before {
+  content: '';
+  background: url("../img/checkmark_icon.png");
+  background-repeat: no-repeat;
+  background-size: 27px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  width: 52px;
+  height: 27px;
+}
+* body main #admissions_section #research_container #research_list .research_item {
+  display: flex;
+  font: normal 400 18px/22px 'Proxima Nova';
+  justify-content: flex-start;
+  letter-spacing: 0.6px;
+  margin-bottom: 14px;
+}
+* body main #admissions_section #research_container #research_list .research_item:last-child {
+  margin-bottom: 0px;
+}
+/* Tablet View */
+@media only screen and (max-width: 1457px) {
+  * body header #cohort_section #cohort_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 11px 188px 12px 388px;
+  }
+  * body header #cohort_section #cohort_container #cohort_notes #cohort_list .cohort_item #cohort_button {
+    display: none;
+  }
+  * body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact {
+    display: none;
+  }
+  * body header #navbar_section #navbar_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 19px 20px 18px 96px;
+  }
+  * body header #navbar_section #navbar_container .navbar #coding_dojo {
+    display: none;
+  }
+  * body header #navbar_section #navbar_container .navbar .collapse:not(.show) {
+    display: inline;
+  }
+  * body header #navbar_section #navbar_container .navbar .collapse li:last-child {
+    display: none;
+  }
+  * body header #navbar_section #navbar_container .navbar .collapse #curriculum {
+    margin-right: 0px;
+  }
+  * body header #navbar_section #navbar_container .navbar .btn {
+    display: none;
+  }
+  * body header #navbar_section #navbar_container .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  * body main #admissions_section #admissions_container {
+    background: #05a9e1 url("../img/word_bubble.png") no-repeat 49px 48px;
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 164px 230px 56px 187px;
+  }
+  * body main #admissions_section #admissions_container h1 {
+    font: normal 700 45px/47px 'Proxima Nova';
+  }
+  * body main #admissions_section #admissions_container p {
+    font: normal 400 18px/22px 'Proxima Nova';
+  }
+  * body main #admissions_section #admissions_container #couple {
+    left: 605px;
+    position: absolute;
+    top: 232px;
+  }
+  * body main #admissions_section #admissions_container #timeline {
+    display: none;
+  }
+  * body main #admissions_section #research_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 26px 65px 26px 427px;
+    position: relative;
+    color: #ffffff;
+  }
+  * body main #admissions_section #research_container #research {
+    position: absolute;
+    left: 66px;
+    top: 0px;
+    width: 327px;
+  }
+  * body main #admissions_section #research_container h2 {
+    font: normal 700 32px/46px 'Proxima Nova';
+  }
+  * body main #admissions_section #research_container #research_list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  * body main #admissions_section #research_container #research_list .research_item::before {
+    content: '';
+    background: url("../img/checkmark_icon.png");
+    background-size: 27px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 62px;
+    height: 25px;
+  }
+  * body main #admissions_section #research_container #research_list .research_item {
+    display: flex;
+    font: normal 400 16px/19px 'Proxima Nova';
+    justify-content: flex-start;
+    letter-spacing: 0.6px;
+    margin-bottom: 14px;
+  }
+  * body main #admissions_section #research_container #research_list .research_item:last-child {
+    margin-bottom: 0px;
+  }
+}
+/* Phone View */
+@media only screen and (max-width: 833px) {
+  * body {
+    margin: 0px auto;
+  }
+  * body header #cohort_section {
+    display: none;
+  }
+  * body header #navbar_section {
+    background-color: #1d1f21;
+  }
+  * body header #navbar_section #navbar_container {
+    margin: 0px auto;
+    max-width: 375px;
+    padding: 21px 35px 17px 24px;
+  }
+  * body header #navbar_section #navbar_container .navbar {
+    font: normal 700 16px/19px 'Proxima Nova';
+    letter-spacing: 0.4px;
+    margin: 0px;
+    padding: 0px;
+  }
+  * body header #navbar_section #navbar_container .navbar .navbar_list .nav-link {
+    padding: 0px;
+  }
+  * body header #navbar_section #navbar_container .navbar #coding_dojo {
+    display: inline;
+  }
+  * body header #navbar_section #navbar_container .navbar #menu {
+    display: inline;
+  }
+  * body header #navbar_section #navbar_container .navbar .collapse:not(.show) {
+    display: inline;
+  }
+  * body header #navbar_section #navbar_container .navbar .btn {
+    display: none;
+  }
+  * body header #navbar_section #navbar_container .navbar-nav {
+    display: none;
+  }
+  * body main #admissions_section #admissions_container {
+    margin: 0px auto;
+    max-width: 375px;
+    background: #05a9e1 url("../img/word_bubble.png") no-repeat -12px 7px;
+    background-size: 536px;
+    padding: 86px 70px 32px 67px;
+  }
+  * body main #admissions_section #admissions_container h1 {
+    font: normal 700 26px/30px 'Proxima Nova';
+    margin-bottom: 13px;
+  }
+  * body main #admissions_section #admissions_container p {
+    font: normal 400 14px/17px 'Proxima Nova';
+    margin-bottom: 14px;
+  }
+  * body main #admissions_section #admissions_container button {
+    padding: 23px 54px;
+  }
+  * body main #admissions_section #admissions_container #couple {
+    display: none;
+  }
+  * body main #admissions_section #research_container {
+    margin: 0px auto;
+    max-width: 375px;
+    padding: 37px 43px 222px 45px;
+  }
+  * body main #admissions_section #research_container #research {
+    position: absolute;
+    left: 0px;
+    top: 268px;
+    width: 327px;
+  }
+  * body main #admissions_section #research_container h2 {
+    font: normal 700 26px/46px 'Proxima Nova';
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  * body main #admissions_section #research_container #research_list .research_item::before {
+    margin-right: 5px;
+    background-size: 18px;
+  }
+  * body main #admissions_section #research_container #research_list .research_item {
+    display: flex;
+    font: normal 400 14px/17px 'Proxima Nova';
+    justify-content: flex-start;
+    letter-spacing: 0.6px;
+    margin-bottom: 14px;
+  }
+  * body main #admissions_section #research_container #research_list .research_item:last-child {
+    margin-bottom: 0px;
+  }
+}
