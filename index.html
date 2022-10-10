@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admissions Page</title>
-    <link rel="stylesheet" href="./assets/css/script.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
     <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    
 </head>
 <body>
     <header>
@@ -72,20 +75,151 @@
                 <h1>Your Future Starts with Admissions</h1>
                 <p>To get started, let’s take a quick look at the admissions process for a Coding Dojo bootcamp.</p>
                 <button>Schedule a Call</button>
-                <!-- <img src="./" -->
                 <img src="./assets/img/couple_taking_selfie.png" id="couple" alt="a couple taking a picture">
                 <img src="./assets/img/timeline.png" id="timeline" alt="a white timeline">
             </div>
             <div id="research_container">
                 <img src="./assets/img/research_meeting.png" id="research" alt="a group of person having a meeting">
-                <h2>Do Your Research!</h1>
-                <ul id="research_list">
-                    <li class="research_item">Check our our programs here on our website and download a sylabus to view the curriculum</li>
-                    <li class="research_item">Schedule a call with one of our admissions  advisors to compare courses or discuss financing. </li>
-                    <li class="research_item">Attend an open house to hear directly from instructors and career services advisors.</li>
-                </ul>
+                <div id="research_text">
+                    <h2>Do Your Research!</h1>
+                    <ul id="research_list">
+                        <li class="research_item">Check our our programs here on our website and download a sylabus to view the curriculum</li>
+                        <li class="research_item">Schedule a call with one of our admissions  advisors to compare courses or discuss financing. </li>
+                        <li class="research_item">Attend an open house to hear directly from instructors and career services advisors.</li>
+                    </ul>
+                </div>    
+            </div>
+            <div id="application_container">
+                <div id="application_text">
+                    <h2>Submit Application</h1>
+                    <ul id="application_list">
+                        <li class="application_item">Next, submit your application! The application process takes no more than 5 minutes.</li>
+                        <li class="application_item">If applying for a full-time program, schedule your interview to complete your application</li>
+                        <li class="application_item">Receive your decision immediately for part-time programs or within 2-3 business days for full-time programs.</li>
+                    </ul>
+                </div>
+                <img src="./assets/img/application.png" id="application" alt="a girl studying"> 
+            </div>
+            <div id="financing_container">
+                <img src="./assets/img/boy_financing.png" id="financing" alt="a man financing">
+                <div id="financing_text">
+                    <h2>Get Financing For Your Program</h1>
+                    <ul id="financing_list">
+                        <li class="financing_item">Our admissions advisors can help you decide what is best for you based on your financial situation and your goals.</li>
+                        <li class="financing_item">We offer a variety of payment options, including partial scholarships, installment plans, and third party lenders including Ascent and Climb Credit. </li>
+                    </ul>
+                </div>    
+            </div>
+            <div id="enrollment_container">
+                <div id="enrollment_text">
+                    <h2>Finalize Your Enrollment</h2>
+                    <ul id="enrollment_list">
+                        <li class="enrollment_item">Once you have confirmed your financing, submit your deposit* to reserve your seat in class</li>
+                        <li id="enrollment_item_details">*Deposit may be waived for certain financing options</li>
+                        <li class="enrollment_item">Connect with your Onboarding Manager! Your manager will help you gather all your needed information and get you set up in the learn platform. </li>
+                    </ul>
+                </div>
+                <img src="./assets/img/enrollment.png" id="enrollment" alt="a girl holding papers"> 
+            </div>
+            <div id="journey_container">
+                <img src="./assets/img/journey.png" id="journey" alt="a man and woman shakes hand"> 
+                <div id="journey_text">
+                    <h2>Start Your Learning Journey</h1>
+                    <p>Get signed into your tools, complete  your pre-course work, meet your classmates, and get excited for the first day of class. You’re on your way to a brand new career in tech!</p>
+                </div>
+                <img src="./assets/img/plant.png" id="plant" alt="a plant in a pot"> 
+            </div>
+        </section>
+        <section id="schedule_call_section">
+            <div id="schedule_call_container">
+                <div id="schedule_call_text">
+                    <h2>Schedule a Call with the Admissions Team!</h2>
+                    <ul id="schedule_call_list">
+                        <li class="schedule_call_item">Get course recommendations</li>
+                        <li class="schedule_call_item">Learn all our course options</li>
+                        <li class="schedule_call_item">Discover custom financing options</li>
+                        <li class="schedule_call_item">Get all your questions answered </li>
+                    </ul>
+                </div>
+                <div id="schedule_call_form">
+                    <img src="./assets/img/call_modal 1.png">
+                </div>
+            </div>
+            <!-- <form>
+                <img src="./assets/img/calendar_and_pens.png" id="calendar_and_pens" alt="a calendar, calculator and pens">
+                <h3>Let's meet</h3>
+                <h5>Complete the form below to get started.</h5>
+            </form> -->
+        </section>
+        <section id="team_section">
+            <div id="team_container">
+                <h2>Meet the Team</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="prev-button">
+                                <img src="./assets/img/arrow-prev.png" alt="prev arrow">
+                            </div>
+                            <div class="team">
+                                <img src="./assets/img/linkedin.png" id="linkedin" alt="linkedin logo">
+                                <img src="./assets/img/circle.png" id="circle" alt="circle">
+                                <h4>Name Here</h4>
+                                <h5>Title Goes Right Here</h5>
+                            </div>
+                            <div class="team">
+                                <img src="./assets/img/linkedin.png" id="linkedin" alt="linkedin logo">
+                                <img src="./assets/img/circle.png" id="circle" alt="circle">
+                                <h4>Name Here</h4>
+                                <h5>Title Goes Right Here</h5>
+                            </div>
+                            <div class="team">
+                                <img src="./assets/img/linkedin.png" id="linkedin" alt="linkedin logo">
+                                <img src="./assets/img/circle.png" id="circle" alt="circle">
+                                <h4>Name Here</h4>
+                                <h5>Title Goes Right Here</h5>
+                            </div>
+                            <div class="team">
+                                <img src="./assets/img/linkedin.png" id="linkedin" alt="linkedin logo">
+                                <img src="./assets/img/circle.png" id="circle" alt="circle">
+                                <h4>Name Here</h4>
+                                <h5>Title Goes Right Here</h5>
+                            </div>
+                            <div class="next-button">
+                                <img src="./assets/img/arrow-next.png" alt="next arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+                <button id="team_button">Schedule a call</button>
             </div>
         </section>
     </main>
 </body>
+<script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+    
+    const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.next-button',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+</script>
 </html>
