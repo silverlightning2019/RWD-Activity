@@ -489,45 +489,51 @@
                         margin-bottom: 33px;
                     }
 
-                    .swiper{
+                    #team_content{
 
-                        .swiper-wrapper{
-                            height: 275px;
-
-                            .swiper-slide{
-                                display: flex;
-                                flex-direction: row;
-                                align-items: center;
-                                justify-content: space-between;
-
-                                .team{
-                                    background: #ffffff;
-                                    border-radius: 8px;
-                                    box-shadow: 0px 0px 12px rgba(11, 31, 39, 0.15);
-                                    height: 252px;
-                                    padding: 28px 62px 45px 63px;
-                                    position: relative;
-                                    width: 257px;
-
-                                    #linkedin{
-                                        position: absolute;
-                                        right: 16px;
-                                        top: 15px;
+                        display: flex;
+                        align-items: center;
+    
+                        .swiper{
+    
+                            .swiper-wrapper{
+                                height: 275px;
+    
+                                .swiper-slide{
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    justify-content: space-around;
+    
+                                    .team{
+                                        background: #ffffff;
+                                        border-radius: 8px;
+                                        box-shadow: 0px 0px 12px rgba(11, 31, 39, 0.15);
+                                        height: 252px;
+                                        padding: 28px 62px 45px 63px;
+                                        position: relative;
+                                        width: 257px;
+    
+                                        #linkedin{
+                                            position: absolute;
+                                            right: 16px;
+                                            top: 15px;
+                                        }
+    
+                                        h4{
+                                            font: normal 700 18px/26px 'Proxima Nova';
+                                            margin-top: 17px;
+                                            margin-bottom: 0px;
+                                            text-align: center;
+                                        }
+    
+                                        h5{
+                                            font: normal 400 14px/21px 'Proxima Nova';
+                                            text-align: center;
+                                        }
                                     }
-
-                                    h4{
-                                        font: normal 700 18px/26px 'Proxima Nova';
-                                        margin-top: 17px;
-                                        margin-bottom: 0px;
-                                        text-align: center;
-                                    }
-
-                                    h5{
-                                        font: normal 400 14px/21px 'Proxima Nova';
-                                        text-align: center;
-                                    }
-                                }
-                            }  
+                                }  
+                            }
                         }
                     }
 
@@ -542,6 +548,250 @@
                         padding: 23px 73px;
                         margin-left: 554px;
                         margin-top: 48px;
+                    }
+                }
+            }
+
+            #best_bootcamp_section{
+                background-color: #ffffff;
+                
+
+                #best_bootcamp_container{
+                    color: #333333;
+                    position: relative;
+                    margin: 0px auto;
+                    max-width: 1440px;    
+
+                    #best_bootcamp_prev_button{
+                        position: absolute;
+                        left: 34px;
+                        top: 238px;
+                        z-index: 1;
+                    }
+
+                    .swiper{
+                        z-index: 0;
+
+                        .swiper-wrapper{
+
+                            .swiper-slide{
+                                display: flex;
+                                justify-content: center;
+
+                                #best_bootcamp_career_karma_badge{
+                                    background-color:  #505170;
+                                    color: #ffffff;
+                                    padding: 96px 116px 132px 126px;
+                                    width: 724px;
+                                    
+
+                                    #career_karma{
+                                        margin-left: 112px;
+                                        margin-bottom: 32px;
+                                    }
+    
+                                    h3{
+                                        font: normal 400 26px/26px 'Proxima Nova';
+                                        letter-spacing: 0.6px;
+                                        text-align: center;
+                                    }
+                                }
+
+                                #best_bootcamp_course_report_badge{
+                                    background-color:  #134c36;
+                                    color: #ffffff;
+                                    padding: 97px 114px 106px 130px;
+                                    width: 724px;
+                                    
+
+                                    #course_report{
+                                        margin-left: 95px;
+                                        margin-bottom: 32px;
+                                    }
+    
+                                    h3{
+                                        font: normal 400 26px/26px 'Proxima Nova';
+                                        letter-spacing: 0.6px;
+                                        text-align: center;
+                                    }
+                                }
+
+                                #best_bootcamp_switchup_badge{
+                                    background-color:  #ad2b1e;
+                                    color: #ffffff;
+                                    padding: 103px 114px 106px 130px;
+                                    width: 724px;
+                                    
+
+                                    #switchup{
+                                        margin-left: 130px;
+                                        margin-bottom: 44px;
+                                    }
+    
+                                    h3{
+                                        font: normal 400 26px/26px 'Proxima Nova';
+                                        letter-spacing: 0.6px;
+                                        text-align: center;
+                                    }
+                                }
+
+                                #best_bootcamp_text{
+                                    padding: 118px 168px 108px 115px;
+                                    width: 714px;
+                                    
+                                    #star_rating{
+                                        margin-bottom: 17px;
+                                    }
+
+                                    h2{
+                                        font: normal 700 40px/49px 'Proxima Nova';
+                                        letter-spacing: 0.6px;
+                                        margin-bottom: 24px;
+                                    }   
+                                    
+                                    h3{
+                                        font: normal 400 22px/22px 'Proxima Nova';
+                                        letter-spacing: 0.6px;
+                                        margin-bottom: 17px;
+                                    }
+
+                                    #best_bootcamp_reviewer{
+                                        align-items: center;
+                                        display: flex;
+                                        justify-content: flex-start;
+                                        margin-bottom: 24px;
+
+                                        #gray_rectangle{
+                                            margin-right: 15px;
+                                        }
+
+                                        h4{
+                                            font: normal 700 20px/24px 'Proxima Nova';
+                                            margin-bottom: 4px;
+                                        }
+
+                                        h5{
+                                            font: normal 400 16px/22px 'Proxima Nova';
+                                            margin-bottom: 0px;
+                                        }
+                                    }
+
+                                    a{
+
+                                        h4{
+                                            color: #05aae1;
+                                            font: normal 400 18px/26px 'Proxima Nova';
+                                            letter-spacing: 0.6px;
+                                            margin-bottom: 0px;
+                                            text-decoration-line: underline;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #best_bootcamp_next_button{
+                        position: absolute;
+                        right: 32px;
+                        top: 238px;
+                        z-index: 1;
+                    }
+                }
+            }
+
+            #financing_overview_section{
+                background-color: #f8faff;
+
+                #financing_overview_container{
+                    color: #333333;
+                    margin: 0px auto;
+                    max-width: 1440px; 
+                    padding: 88px 139px 79px 151px;
+
+                    h2{
+                        font: normal 700 40px/49px 'Proxima Nova';
+                        text-align: center;
+                        letter-spacing: 0.6px;
+                        margin-bottom: 40px;
+                    }
+
+                    #financing_overview_pay_methods{
+                        display: flex;
+                        justify-content: center;
+                        
+                        .pay_method{
+                            background: #ffffff;
+                            box-shadow: 0px 0px 12px rgba(11, 31, 39, 0.15);
+                            border-radius: 8px;
+                            height: 291px;
+                            margin: 0px 40px 46px 0px;
+                            padding: 50px 22px 32px 22px;
+                            position: relative;
+                            text-align: center;
+                            width: 256px;
+                            
+                            .external_link{
+                                position: absolute;
+                                margin: 0px;
+                                right: 18px;
+                                top: 13px;
+                            }
+                            
+                            h5{
+                                font: normal 700 20px/29px 'Proxima Nova';
+                                letter-spacing: 0.6px;
+                                margin-bottom: 6px;
+                                text-align: center;
+                            }
+
+                            h3{
+                                color: #05aae1;
+                                font: normal 700 34px/50px 'Proxima Nova';
+                                margin-bottom: 6px;
+                                text-align: center;
+                            }
+
+                            #miashare{
+                                margin-bottom: 12px;
+                            }
+
+                            #climb{
+                                margin-bottom: 22px;
+                            }
+
+                            #ascent{
+                                margin-bottom: 22px;
+                            }
+
+                            p{
+                                font: normal 400 14px/25px 'Proxima Nova';
+                            }
+                        }
+                        
+                        .pay_method:last-child{
+                            margin-right: 0px;
+                        }
+                    }
+
+                    
+                    h5{
+                        font: normal 400 28px/30px 'Proxima Nova';
+                        margin-bottom: 17px;
+                        text-align: center;
+                    }
+
+                    #financing_overview_button{
+                        background: #05aae1;
+                        box-shadow: 0px 6px 6px rgba(11, 31, 39, 0.08);
+                        border: transparent;
+                        border-radius: 2px;
+                        color: #ffffff;
+                        font: normal 700 16px/19px 'Proxima Nova';
+                        letter-spacing: 0.6px;
+                        margin: 0px 441px 0px 441px;
+                        padding: 23px 73px; 
+                        text-align: center;
                     }
                 }
             }
