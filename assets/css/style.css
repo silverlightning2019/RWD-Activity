@@ -838,33 +838,34 @@
   color: #333333;
   margin: 0px auto;
   max-width: 1440px;
-  padding: 72px 36px 52px 29px;
+  padding: 72px 145px 52px 145px;
+  position: relative;
   text-align: center;
 }
 * body main #team_section #team_container h2 {
   font: normal 700 40px/49px 'Proxima Nova';
   text-align: center;
-  margin-bottom: 33px;
+  margin-bottom: 65px;
+}
+* body main #team_section #team_container .prev-button {
+  display: none;
 }
 * body main #team_section #team_container #team_content {
   display: flex;
   align-items: center;
-}
-* body main #team_section #team_container #team_content .prev-button {
-  display: inline;
+  margin: 0px;
+  max-width: 1100px;
+  position: relative;
 }
 * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide {
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 0px 12px rgba(11, 31, 39, 0.15);
   height: 252px;
-  padding: 28px 60px 45px 60px;
+  padding: 28px 0px 45px 0px;
   position: relative;
-  max-width: 256px;
-  margin-left: 20px;
-  margin-right: 31px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  max-width: 242px;
+  margin: 0px;
 }
 * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide #linkedin {
   position: absolute;
@@ -887,11 +888,11 @@
 * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide:last-child {
   margin-right: 0px;
 }
-* body main #team_section #team_container #team_content .swiper .swiper-pagination {
+* body main #team_section #team_container .swiper-pagination {
   display: none;
 }
-* body main #team_section #team_container #team_content .next-button {
-  display: inline;
+* body main #team_section #team_container .next-button {
+  display: none;
 }
 * body main #team_section #team_container #team_button {
   background: #05aae1;
@@ -902,13 +903,24 @@
   font: normal 700 16px/19px 'Proxima Nova';
   letter-spacing: 0.6px;
   padding: 23px 73px;
-  margin-left: 554px;
   margin-top: 48px;
+}
+* body main #team_section #team_container:hover .prev-button {
+  display: inline;
+  position: absolute;
+  top: 277px;
+  left: 55px;
+}
+* body main #team_section #team_container:hover .next-button {
+  display: inline;
+  position: absolute;
+  top: 277px;
+  right: 55px;
 }
 @media only screen and (max-width: 1457px) {
   * body main #team_section #team_container {
     max-width: 834px;
-    padding: 67px 136px 87px 134px;
+    padding: 67px 140px 87px 140px;
   }
   * body main #team_section #team_container h2 {
     font: normal 700 32px/39px 'Proxima Nova';
@@ -921,11 +933,7 @@
   * body main #team_section #team_container #team_content .prev-button {
     display: none;
   }
-  * body main #team_section #team_container #team_content .swiper .swiper-wrapper {
-    height: 275px;
-  }
   * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide {
-    margin-right: 5px;
     min-width: 256px;
   }
   * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide #linkedin {
@@ -946,31 +954,33 @@
     font: normal 400 14px/21px 'Proxima Nova';
     text-align: center;
   }
-  * body main #team_section #team_container #team_content .swiper .swiper-pagination {
-    display: inline;
-  }
   * body main #team_section #team_container #team_content .next-button {
     display: none;
   }
+  * body main #team_section #team_container .swiper-pagination {
+    display: inline;
+    position: absolute;
+    top: 446px;
+  }
   * body main #team_section #team_container #team_button {
     padding: 23px 73px;
-    margin: 95px 0px 0px 146px;
+    margin-top: 96px;
+  }
+  * body main #team_section #team_container:hover .prev-button {
+    display: none;
+  }
+  * body main #team_section #team_container:hover .next-button {
+    display: none;
   }
 }
 @media only screen and (max-width: 833px) {
   * body main #team_section #team_container {
     max-width: 375px;
-    padding: 47px 35px 46px 35px;
+    padding: 47px 59px 46px 59px;
   }
   * body main #team_section #team_container h2 {
     font: normal 700 26px/32px 'Proxima Nova';
     margin-bottom: 30px;
-  }
-  * body main #team_section #team_container #team_content .swiper .swiper-wrapper {
-    margin-left: 26px;
-  }
-  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide {
-    margin: 5px 34px 5px 0px;
   }
   * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide #linkedin {
     position: absolute;
@@ -995,6 +1005,9 @@
   }
   * body main #team_section #team_container #team_content .next-button {
     display: none;
+  }
+  * body main #team_section #team_container .swiper-pagination {
+    top: 402px;
   }
   * body main #team_section #team_container #team_button {
     padding: 23px 73px;
@@ -1642,7 +1655,7 @@
     margin-right: 20px;
     position: relative;
   }
-  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item #alumni_video {
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item .alumni_video {
     width: 216px;
   }
   * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h4 {
@@ -1689,7 +1702,7 @@
   * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item {
     margin: 0px 0px 42px 0px;
   }
-  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item #alumni_video {
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item .alumni_video {
     width: 305px;
   }
   * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h4 {
@@ -1813,7 +1826,7 @@
   * body main #question_and_answer_section #question_and_answer_container h2 {
     font: normal 700 26px/32px 'Proxima Nova';
     margin-bottom: 25px;
-    text-align: right;
+    text-align: left;
   }
   * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-item .accordion-collapse {
     display: none;
@@ -1827,4 +1840,8 @@
   * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button::after {
     margin-left: 25px;
   }
+}
+.modal .modal-dialog .modal-content .modal-body {
+  text-align: center;
+  width: 500px;
 }

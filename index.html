@@ -11,8 +11,10 @@
     <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js" type="module"></script>
     
 </head>
 <body>
@@ -154,10 +156,10 @@
         <section id="team_section">
             <div id="team_container">
                 <h2>Meet the Team</h2>
+                <div class="prev-button">
+                    <img src="./assets/img/arrow-prev.png" alt="prev arrow">
+                </div>
                 <div id="team_content">
-                    <div class="prev-button">
-                        <img src="./assets/img/arrow-prev.png" alt="prev arrow">
-                    </div>
                     <div class="swiper" id="team_swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide team">
@@ -209,13 +211,14 @@
                                 <h5>Title Goes Right Here</h5>
                             </div>
                         </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                    <div class="next-button">
-                        <img src="./assets/img/arrow-next.png" alt="next arrow">
                     </div>
                     <!-- <div class="swiper-scrollbar"></div> -->
                 </div>
+                <div class="swiper-pagination"></div>
+                <div class="next-button">
+                    <img src="./assets/img/arrow-next.png" alt="next arrow">
+                </div>
+                
                 <button id="team_button">Schedule a call</button>
             </div>
         </section>
@@ -355,21 +358,21 @@
                 <h2>Meet Our Alumni</h2>
                 <ul id="alumni_list">
                     <li class="alumni_item">
-                        <img src="./assets/img/alumni_video.png" id="alumni_video" alt="alumni_video">
+                        <img src="./assets/img/alumni_video.png" class="alumni_video" alt="alumni_video" data-toggle="modal" data-target="#alumni_video">
                         <h4>The Career Changer</h4>
                         <h5>Sara Wong <span>| HR Background</span></h5>
                         <p>I wouldn’t have been able to grow as a developer the same way if I had gone to another bootcamp.</p>
                         <img src="./assets/img/“.png" id="quotation_mark" alt="quotation mark">
                     </li>
                     <li class="alumni_item" id="veteran">
-                        <img src="./assets/img/alumni_video.png" id="alumni_video" alt="alumni_video">
+                        <img src="./assets/img/alumni_video.png" class="alumni_video" alt="alumni_video" data-toggle="modal" data-target="#alumni_video">
                         <h4>The Veteran Developer</h4>
                         <h5>Justin Fisher <span>| Developer for 20 Years</span></h5>
                         <p>You can spend months trying to learn this stuff on your own, or you can come here and get it right away.</p>
                         <img src="./assets/img/“.png" id="quotation_mark" alt="quotation mark">
                     </li>
                     <li class="alumni_item">
-                        <img src="./assets/img/alumni_video.png" id="alumni_video" lt="alumni_video">
+                        <img src="./assets/img/alumni_video.png" class="alumni_video" alt="alumni_video" data-toggle="modal" data-target="#alumni_video">
                         <h4>The CS Graduate</h4>
                         <h5>Matt Tucker <span>| CS Background</span></h5>
                         <p>By the first month, you start to realize I can already build stuff... I didn’t get that in college.</p>
@@ -433,76 +436,29 @@
         </section>
     </main>
 </body>
-<script type="module">
-    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+<!-- Modal -->
+<div class="modal fade" id="alumni_video" tabindex="-1" role="dialog" aria-labelledby="alumni_video_label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- <h5 class="modal-title" id="alumni_video">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>s
+                </button> -->
+            </div>
+            <div class="modal-body">
+                <img src="./assets/img/alumni_video.png" class="alumni_video" alt="alumni_video">
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+<script >
     
-    var swiper = new Swiper('#team_swiper', {
-        slidesPerView: 4,
-        slidesPerGroup: 1,
-        direction: 'horizontal',
-
-        pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        },
-
-        navigation: {
-        nextEl: '.next-button',
-        prevEl: '.prev-button',
-        },
-    
-        scrollbar: {
-        el: '.swiper-scrollbar',
-        },
-
-        on: {
-            resize: function () {
-            swiper.changeDirection(getDirection());
-            },
-        },
-
-        breakpoints: {
-            1440: {
-                slidesPerView: 4
-                // spaceBetweenSlides: 50
-            },
-
-            834: {
-                slidesPerView: 2
-                // spaceBetweenSlides: 50
-            },
-
-            375: {
-                slidesPerView: 1
-                // spaceBetweenSlides: 50
-            },
-        },
-    });
-
-    // function getDirection() {
-    //   var windowWidth = window.innerWidth;
-    //   var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-    //   return direction;
-    // }
-
-    const best_bootcamp_swiper = new Swiper('#best_bootcamp_swiper', {
-        direction: 'horizontal',
-        loop: false,
-    
-        pagination: {
-        el: '.swiper-pagination',
-        },
-
-        navigation: {
-        nextEl: '#best_bootcamp_next_button',
-        prevEl: '#best_bootcamp_prev_button',
-        },
-
-        scrollbar: {
-        el: '.swiper-scrollbar',
-        },
-    });
 
     
 </script>
