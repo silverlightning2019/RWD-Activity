@@ -887,7 +887,7 @@
 * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide:last-child {
   margin-right: 0px;
 }
-* body main #team_section #team_container .swiper-pagination {
+* body main #team_section #team_container .team_pagination {
   display: none;
 }
 * body main #team_section #team_container .next-button {
@@ -955,7 +955,7 @@
   * body main #team_section #team_container #team_content .next-button {
     display: none;
   }
-  * body main #team_section #team_container .swiper-pagination {
+  * body main #team_section #team_container .team_pagination {
     display: inline;
     position: absolute;
     top: 446px;
@@ -998,13 +998,10 @@
     font: normal 400 14px/21px 'Proxima Nova';
     text-align: center;
   }
-  * body main #team_section #team_container #team_content .swiper .swiper-pagination {
-    display: none;
-  }
   * body main #team_section #team_container #team_content .next-button {
     display: none;
   }
-  * body main #team_section #team_container .swiper-pagination {
+  * body main #team_section #team_container .team_pagination {
     top: 402px;
   }
   * body main #team_section #team_container #team_button {
@@ -1017,9 +1014,10 @@
 }
 * body main #best_bootcamp_section #best_bootcamp_container {
   color: #333333;
-  position: relative;
   margin: 0px auto;
   max-width: 1440px;
+  position: relative;
+  text-align: center;
 }
 * body main #best_bootcamp_section #best_bootcamp_container #best_bootcamp_prev_button {
   position: absolute;
@@ -1081,6 +1079,7 @@
 * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text {
   padding: 118px 168px 108px 115px;
   position: relative;
+  text-align: left;
   width: 714px;
 }
 * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #star_rating {
@@ -1124,6 +1123,9 @@
   letter-spacing: 0.6px;
   margin-bottom: 0px;
   text-decoration-line: underline;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .best_bootcamp_pagination {
+  display: none;
 }
 * body main #best_bootcamp_section #best_bootcamp_container #best_bootcamp_next_button {
   position: absolute;
@@ -1217,6 +1219,9 @@
     font: normal 400 16px/23px 'Proxima Nova';
     margin-bottom: 0px;
   }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .best_bootcamp_pagination {
+    display: none;
+  }
   * body main #best_bootcamp_section #best_bootcamp_container #best_bootcamp_next_button {
     display: none;
   }
@@ -1224,6 +1229,9 @@
 @media only screen and (max-width: 845px) {
   * body main #best_bootcamp_section #best_bootcamp_container {
     max-width: 375px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper {
+    position: relative;
   }
   * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide {
     display: block;
@@ -1294,6 +1302,14 @@
   }
   * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text a h4 {
     font: normal 400 14px/20px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .best_bootcamp_pagination {
+    display: inline;
+    position: absolute;
+    top: 779px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .best_bootcamp_pagination .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 20px);
   }
 }
 * body main #financing_overview_section {

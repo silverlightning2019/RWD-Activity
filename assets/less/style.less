@@ -1191,7 +1191,7 @@
                         }
                     }
 
-                    .swiper-pagination{
+                    .team_pagination{
                         display: none;
                     }
 
@@ -1288,7 +1288,7 @@
                             }
                         }
 
-                        .swiper-pagination{
+                        .team_pagination{
                             display: inline;
                             position: absolute;
                             top: 446px;
@@ -1357,10 +1357,6 @@
                                         }
                                     }
                                 }
-    
-                                .swiper-pagination{
-                                    display: none;
-                                }
                             }
     
                             .next-button{
@@ -1368,7 +1364,7 @@
                             }
                         }
 
-                        .swiper-pagination{
+                        .team_pagination{
                             top: 402px;
                         }
                         
@@ -1387,9 +1383,10 @@
 
                 #best_bootcamp_container{
                     color: #333333;
-                    position: relative;
                     margin: 0px auto;
-                    max-width: 1440px;       
+                    max-width: 1440px; 
+                    position: relative;
+                    text-align: center;      
 
                     #best_bootcamp_prev_button{
                         position: absolute;
@@ -1464,6 +1461,7 @@
                                 #best_bootcamp_text{
                                     padding: 118px 168px 108px 115px;
                                     position: relative;
+                                    text-align: left;      
                                     width: 714px;
                                     
                                     #star_rating{
@@ -1521,6 +1519,10 @@
                                     }
                                 }
                             }
+                        }
+
+                        .best_bootcamp_pagination{
+                            display: none;
                         }
                     }
 
@@ -1653,6 +1655,10 @@
                                     }
                                 }
                             }
+
+                            .best_bootcamp_pagination{
+                                display: none;
+                            }
                         }
 
                         #best_bootcamp_next_button{
@@ -1669,6 +1675,7 @@
                         max-width: 375px;    
 
                         .swiper{
+                            position: relative;
 
                             .swiper-wrapper{
 
@@ -1762,6 +1769,17 @@
                                             }
                                         }
                                     }
+                                }
+                            }
+
+                            .best_bootcamp_pagination{
+                                display: inline;
+                                // margin-bottom: 43px;
+                                position: absolute;
+                                top: 779px;
+
+                                .swiper-pagination-bullet{
+                                    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,20px);
                                 }
                             }
                         }

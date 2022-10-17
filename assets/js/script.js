@@ -6,7 +6,7 @@ var swiper = new Swiper('#team_swiper', {
     loop: false,
 
     pagination: {
-        el: '.swiper-pagination',
+        el: '.team_pagination',
         clickable: true,
     },
 
@@ -57,7 +57,7 @@ const best_bootcamp_swiper = new Swiper('#best_bootcamp_swiper', {
     loop: false,
 
     pagination: {
-    el: '.swiper-pagination',
+    el: '.best_bootcamp_pagination',
     },
 
     navigation: {
