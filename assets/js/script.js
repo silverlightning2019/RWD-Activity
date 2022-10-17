@@ -3,6 +3,7 @@ import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.brow
 var swiper = new Swiper('#team_swiper', {
     slidesPerView: 4,
     direction: 'horizontal',
+    loop: false,
 
     pagination: {
         el: '.swiper-pagination',
@@ -30,14 +31,14 @@ var swiper = new Swiper('#team_swiper', {
             spaceBetween: 50,
         },
 
-        834: {
+        845: {
             slidesPerView: 2,
             spaceBetween: 42,
         },
 
         375: {
             slidesPerView: 1,
-            spaceBetweenSlides: 40
+            spaceBetween: 0,
         },
     },
 
