@@ -56,7 +56,7 @@
   margin: 0px;
   vertical-align: center;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body header #cohort_section #cohort_container {
     margin: 0px auto;
     max-width: 834px;
@@ -69,7 +69,7 @@
     display: none;
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 834px) {
   * body header #cohort_section {
     display: none;
   }
@@ -128,7 +128,7 @@
   text-align: center;
   width: 120px;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body header #navbar_section #navbar_container {
     margin: 0px auto;
     max-width: 834px;
@@ -157,7 +157,7 @@
     list-style: none;
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 833px) {
   * body header #navbar_section {
     background-color: #1d1f21;
   }
@@ -421,7 +421,7 @@
   bottom: 0px;
   right: 194px;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body main #admissions_section #admissions_container {
     background: #05a9e1 url("../img/word_bubble.png") no-repeat 49px 48px;
     margin: 0px auto;
@@ -567,7 +567,7 @@
     display: none;
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 833px) {
   * body main #admissions_section #admissions_container {
     margin: 0px auto;
     max-width: 375px;
@@ -784,7 +784,7 @@
   letter-spacing: 0.6px;
   list-style: none;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body main #schedule_call_section #schedule_call_container {
     max-width: 834px;
     padding: 61px 64px 68px 61px;
@@ -803,7 +803,7 @@
     width: 338px;
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 833px) {
   * body main #schedule_call_section #schedule_call_container {
     display: block;
     max-width: 375px;
@@ -915,7 +915,7 @@
   top: 277px;
   right: 55px;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body main #team_section #team_container {
     max-width: 834px;
     padding: 67px 140px 87px 140px;
@@ -971,7 +971,7 @@
     display: none;
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 833px) {
   * body main #team_section #team_container {
     max-width: 375px;
     padding: 47px 57px 46px 62px;
@@ -1133,7 +1133,7 @@
   top: 238px;
   z-index: 1;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body main #best_bootcamp_section #best_bootcamp_container {
     max-width: 834px;
   }
@@ -1226,7 +1226,7 @@
     display: none;
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 833px) {
   * body main #best_bootcamp_section #best_bootcamp_container {
     max-width: 375px;
   }
@@ -1389,7 +1389,7 @@
   margin: 0px auto;
   padding: 23px 73px;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body main #financing_overview_section #financing_overview_container {
     max-width: 834px;
     padding: 54px 137px 65px 139px;
@@ -1433,7 +1433,7 @@
     font: normal 400 18px/27px 'Proxima Nova';
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 833px) {
   * body main #financing_overview_section #financing_overview_container {
     margin: 0px auto;
     max-width: 375px;
@@ -1513,7 +1513,7 @@
 * body main #company_data_section #company_data_container #graduate {
   margin-right: 82px;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body main #company_data_section #company_data_container {
     display: flex;
     flex-direction: row;
@@ -1551,7 +1551,7 @@
     margin: 0px 147px 0px 11px;
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 833px) {
   * body main #company_data_section #company_data_container {
     justify-content: space-around;
     max-width: 375px;
@@ -1652,7 +1652,7 @@
   margin: 0px auto;
   padding: 23px 52px;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body main #meet_our_alumni_section #meet_our_alumni_container {
     max-width: 834px;
     padding: 74px 65px 97px 65px;
@@ -1699,7 +1699,7 @@
     padding: 23px 50px;
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 833px) {
   * body main #meet_our_alumni_section #meet_our_alumni_container {
     max-width: 375px;
     padding: 44px 35px 63px 35px;
@@ -1791,7 +1791,7 @@
   box-shadow: none;
   color: #333333;
 }
-@media only screen and (max-width: 1457px) {
+@media only screen and (max-width: 1439px) {
   * body main #question_and_answer_section #question_and_answer_container {
     margin: 0px auto;
     max-width: 834px;
@@ -1831,7 +1831,7 @@
     color: #333333;
   }
 }
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 833px) {
   * body main #question_and_answer_section #question_and_answer_container {
     max-width: 375px;
     padding: 0px 35px 63px 35px;
